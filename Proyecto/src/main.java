@@ -17,8 +17,8 @@ public class main {
 		//ventana_ingresarCliente.setSize();
         ventana_menu.setTitle("Menu");
 		
-		ingresarCliente cliente = new ingresarCliente();
-		menu menuComidas = new menu();
+		Ingresar cliente = new Ingresar();
+		menuu menuComidas = new menuu();
 		
 		ventana_menu.add(menuComidas.getPanel());
 		//ventana_cliente.add(cliente.getPanel());
