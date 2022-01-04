@@ -1,3 +1,8 @@
+/* Desarrollado por: 
+- Christopher Alejandro Moyano Delgado
+-Cristian Andrés Riquelme González
+-Matias Ulloa Toro
+*/
 package proyectomati;
 import java.awt.Dimension;
 import java.awt.Font;
@@ -441,7 +446,7 @@ public class menuu extends JFrame{
                                                                     ventanaCliente.setLocationRelativeTo(null);
                                                                     ventanaCliente.setTitle("Ingresar Cliente");  
                                                                     ventanaCliente.setVisible(true); 
-                                                                    
+                                                                     dispose();
                                                                  }
                                                                   
 			}
